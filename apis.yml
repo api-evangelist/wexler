@@ -1,7 +1,24 @@
 aid: wexler
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wexler.png
 name: Wexler
-description: Wexler is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Wexler AI operates a Fact Intelligence Platform built for legal disputes
+  and investigations. Its AI system, including an assistant named Kim, extracts, structures,
+  and verifies facts across large document sets with source attribution, surfaces inconsistencies
+  and contradictions in evidence, builds chronological case timelines, and produces
+  confidence-scored, testable facts grounded in source materials. It is used by enterprise
+  and AmLaw100 law firms for early case assessment. Wexler currently exposes no public
+  developer API; this profile captures its public identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/wexler/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Legal
+- Legal Tech
+- Artificial Intelligence
+- Document Analysis
+- Fact Intelligence
+- Litigation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +45,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://wexler.ai
+  url: https://wexler.ai
+- type: Login
+  url: https://app.wexler.ai
+- type: SignUp
+  url: https://wexler.ai/request-a-demo
+- type: Blog
+  url: https://wexler.ai/insights
+- type: PrivacyPolicy
+  url: https://wexler.ai/legal/privacy-policy
+- type: TrustCenter
+  url: security/wexler-trust-center.yml
+- type: DomainSecurity
+  url: security/wexler-domain-security.yml
+- type: Compliance
+  url: security/wexler-trust-center.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
